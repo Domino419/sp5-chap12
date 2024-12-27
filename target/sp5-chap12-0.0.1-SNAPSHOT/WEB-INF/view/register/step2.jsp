@@ -8,6 +8,7 @@
 </head>
 <body>
     <h2><spring:message code="member.info" /></h2>
+    <h2><spring:message code="test" /></h2>
     <form:form action="step3" modelAttribute="registerRequest">
     <p>
         <label><spring:message code="email" />:<br>
