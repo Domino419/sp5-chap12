@@ -39,6 +39,8 @@ public class RegisterRequestValidator implements Validator {
      * param         : Class<?> clazz - 검증할 객체의 클래스 타입
      * return        : boolean - 검증 가능한 클래스 타입 여부
      * description   : 이 Validator가 해당 클래스의 인스턴스를 지원하는지 확인
+     *  폼 데이터를 처리하기 전, 스프링은 supports 메소드를 호출해 이 Validator가 적용 가능한지 확인하고,
+     *  지원하는 클래스(RegisterRequest)가 아니라면, 검증 과정에서 해당 Validator는 무시한다.
      */
     @Override
     public boolean supports(Class<?> clazz) {
