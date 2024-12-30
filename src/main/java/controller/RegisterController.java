@@ -99,7 +99,7 @@ public class RegisterController {
 
 
 	/**
-	 * method        : initBinder (컨트롤러단의 검증, 로컬 검증)
+	 * method        : initBinder (컨트롤러단의 검증, 로컬 검증 )
 	 * date          : 2024-12-26
 	 * param         : WebDataBinder binder - 요청 데이터를 바인딩하고 검증하는 WebDataBinder 객체
 	 * return        : void
